@@ -1,0 +1,29 @@
+go_postgres_database:
+    host: "35.197.146.208"
+    user: "postgres"
+    password: "@bcd1@34"
+    name: "phoenix"
+    debug: true
+    port: 100
+
+go_mongo_database:
+    host: "localhost"
+    user: "mongoadmin"
+    password: "secret"
+    name: "go_framework"
+    port: 27017
+
+paging:
+    limit: 100
+
+encryption:
+    oid_key: ghnexp0123456789
+    jwt_secret: secret
+    jwt_secret_partner: secret
+    jwt_exp: 72
+    jwt_pol: 59a795909e65177c27fcdd87
+
+profiler:
+    prometheus: false
+    statsd_address: 127.0.0.1:8125
+    service: "go-upload"
